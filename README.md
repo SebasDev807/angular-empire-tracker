@@ -1,5 +1,42 @@
 # EmpireTracker
 
+<p align="center">
+  <a href="https://swapi.dev/" target="blank">
+  <img src="https://cdn.worldvectorlogo.com/logos/star-wars-4.svg"height="100"width="250" />
+  </a><a href="https://angular.dev/" target="blank">
+  <img src="https://www.svgrepo.com/show/353396/angular-icon.svg"height="100"width="250" />
+  </a></p>
+
+  # Ejecutar aplicación en desarrollo
+
+  Sigue estos pasos para ejecutar el proyecto en desarrollo
+
+ 1. **Clonar el repositorio** 🔄
+  ```
+  https://github.com/SebasDev807/angular-empire-tracker.git
+  ```
+
+  2. **instalar dependencias**📦
+  ```
+  npm install
+  ```
+
+  3. **Instalar Angular CLI**🌟
+  <br>
+  
+  Asegurate de tener Angular CLI Instalado globalmente
+  
+  ```
+  npm install -g @angular/cli
+  ```
+
+  # Stack 
+  - Mongo
+  - Express/Nest
+  - Angular
+  - NodeJS
+  - Tailwind CSS# EmpireTracker
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
 
 ## Development server
