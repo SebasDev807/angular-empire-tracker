@@ -1,0 +1,36 @@
+:host {
+    width: 75%;
+}
+
+div {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+input {
+    width: 90%;
+    height: 20px;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input,
+button {
+    height: 40px;
+}
+
+button {
+    background-color: yellow;
+    padding: 10px;
+    font-weight: 700;
+    transition: 1s;
+
+}
+
+button:hover {
+    background-color: rgb(255, 199, 17);
+    padding: 10px;
+    font-weight: 700;
+
+}
