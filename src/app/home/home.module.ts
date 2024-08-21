@@ -1,16 +1,26 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MainPageComponent } from './pages/main-page/main-page.component';
+import { StarWarsDataService } from './services/star-wars-data.service';
+import { provideHttpClient, withFetch } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    MainPageComponent
+    MainPageComponent,
+  ],
+  providers:[
+    StarWarsDataService,
+    provideHttpClient(
+      withFetch()
+    )
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    
+
   ],
   exports:[
-    MainPageComponent
+    MainPageComponent,
   ]
 })
 export class HomeModule { }
